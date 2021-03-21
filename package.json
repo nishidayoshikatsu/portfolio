@@ -8,8 +8,8 @@
     "start": "next start",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "lint": "eslint pages components --ext .ts,.tsx",
-    "lint:fix": "eslint pages components --fix . --ext .ts,.js,.tsx,.jsx"
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --fix . --ext .ts,.js,.tsx,.jsx"
   },
   "dependencies": {
     "next": "10.0.9",

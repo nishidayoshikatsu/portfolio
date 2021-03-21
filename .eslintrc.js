@@ -60,7 +60,7 @@ module.exports = {
     // Next.js向けのページコンポーネントはdefault exportしか使えないなので除外
     overrides: [
         {
-            files: ['pages/**/*.tsx'],
+            files: ['src/pages/**/*.tsx'],
             rules: {
                 'import/no-default-export': 'off'
             }
